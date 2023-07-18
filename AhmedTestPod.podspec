@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'AhmedTestPod/Classes/**/*'
-  
+ 
+  s.source_files = 'Classes/**/*.swift'
+
   # s.resource_bundles = {
   #   'AhmedTestPod' => ['AhmedTestPod/Assets/*.png']
   # }
