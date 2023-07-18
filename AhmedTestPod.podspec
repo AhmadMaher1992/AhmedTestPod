@@ -32,7 +32,10 @@ TODO: Add long description of the pod here.
 
  
   s.source_files = 'Source/**/*.swift'
-
+s.swift_version = '5'
+s.platforms = {
+    "ios": "12.0"
+}
   # s.resource_bundles = {
   #   'AhmedTestPod' => ['AhmedTestPod/Assets/*.png']
   # }
